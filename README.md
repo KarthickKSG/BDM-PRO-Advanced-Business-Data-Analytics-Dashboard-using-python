@@ -49,12 +49,12 @@
 
   
 
-    Create a virtual environment:
-    code Powershell
+  Create a virtual environment:
+  code Powershell
 
     
-python -m venv venv
-.\venv\Scripts\activate
+    python -m venv venv
+    .\venv\Scripts\activate
 
   
 
@@ -89,8 +89,8 @@ Set up environment:
 code Bash
 
     
-python3 -m venv venv
-source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
 
   
 
@@ -98,7 +98,7 @@ Install dependencies:
 code Bash
 
     
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
   
 
