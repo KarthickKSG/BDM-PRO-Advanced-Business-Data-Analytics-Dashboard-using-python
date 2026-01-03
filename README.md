@@ -1,3 +1,11 @@
+    
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python/refs/heads/main/Screenshot%202026-01-03%20at%2023-47-21%20BDM%20Pro%20Analytics.png" width="100%" />
+  <h1 align="center">🔹 BDM-PRO 🔹</h1>
+  <p align="center"><b>Turn Complex Transactions into Actionable Intelligence</b></p>
+</p>
+
+  
  📊 BDM-PRO: Advanced Business Data Analytics Dashboard
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
