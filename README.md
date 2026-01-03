@@ -50,7 +50,7 @@
   
 
   Create a virtual environment:
-  code Powershell
+   code Powershell
 
     
     python -m venv venv
@@ -59,7 +59,7 @@
   
 
 Install libraries:
-code Powershell
+ code Powershell
 
     
 pip install -r requirements.txt
@@ -67,7 +67,7 @@ pip install -r requirements.txt
   
 
 Run the App:
-code Powershell
+ code Powershell
 
         
     streamlit run app.py
@@ -76,17 +76,17 @@ code Powershell
 
 🐧 Linux Setup
 
-    Clone the repository:
+   Clone the repository:
     code Bash
 
     
-git clone https://github.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python.git
-cd BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python
+    git clone https://github.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python.git
+    cd BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python
 
   
 
 Set up environment:
-code Bash
+ code Bash
 
     
     python3 -m venv venv
@@ -95,7 +95,7 @@ code Bash
   
 
 Install dependencies:
-code Bash
+ code Bash
 
     
     pip install -r requirements.txt
@@ -103,7 +103,7 @@ code Bash
   
 
 Run the App:
-code Bash
+ code Bash
 
         
     streamlit run app.py
@@ -124,21 +124,21 @@ code Bash
 
 🛠️ Built With
 
-    Streamlit - Web Interface
+   Streamlit - Web Interface
 
-    Pandas - Data Engine
+   Pandas - Data Engine
 
-    Plotly - Interactive Visuals
+   Plotly - Interactive Visuals
 
-    Matplotlib - Table Gradients
+   Matplotlib - Table Gradients
 
-    Animate.css - UI Animations
+   Animate.css - UI Animations
 
 👤 Author
 
 Karthick KSG
 
-    GitHub: @KarthickKSG
+   GitHub: @KarthickKSG
 
 Developed for professional Business Intelligence and Data Analytics.
 code Code
@@ -146,9 +146,5 @@ code Code
     
 ---
 
-### 3. Quick Setup Tips for GitHub
-1.  **Update Repository Settings**: On your GitHub page, click the **Settings Cog** near "About" and add these tags: `python`, `streamlit`, `data-science`, `business-intelligence`, `dashboard`, `data-visualization`.
-2.  **Main Image**: GitHub will automatically pick the first image in the README as the social preview.
-3.  **License**: Consider adding an `MIT License` file to your repo to make it open-source friendly.
 
   
