@@ -1,71 +1,82 @@
-    
-# 📊 BDM-PRO: Advanced Business Data Analytics Dashboard
+ 📊 BDM-PRO: Advanced Business Data Analytics Dashboard
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 
-**BDM-PRO** is a high-performance, interactive data visualization platform built with Python. It is specifically designed to handle complex financial transaction logs, providing business owners and analysts with real-time insights through a modern, blue glassmorphism interface.
+**BDM-PRO** is a professional-grade, high-performance analytics platform built with Python and Streamlit. It transforms complex, messy transaction logs into a clean, interactive visual experience. Featuring a modern **Blue Glassmorphism UI**, it provides real-time business intelligence for GMV tracking, success rate analysis, and customer behavior.
 
-## 🌟 Visual Previews
-| Revenue Trends | Peak Hour Analytics |
-|---|---|
-| ![Revenue](https://github.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python/blob/main/Screenshot%202026-01-03%20at%2023-47-21%20BDM%20Pro%20Analytics.png?raw=true) | ![Hourly](https://github.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python/blob/main/Screenshot%202026-01-03%20at%2023-47-42%20BDM%20Pro%20Analytics.png?raw=true) |
+## 🌟 Visual Showcase
 
-## ✨ Core Features
+### 📈 Main Dashboard & Revenue Trends
+![Main Dashboard](https://raw.githubusercontent.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python/refs/heads/main/Screenshot%202026-01-03%20at%2023-47-21%20BDM%20Pro%20Analytics.png)
 
-*   **⚡ Real-Time CSV Processing**: Instant cleaning and formatting of raw data.
-*   **💎 Glassmorphism UI**: Premium dark-blue professional theme with CSS animations.
-*   **📈 Smart KPIs**: Track GMV, Success Rate, Average Ticket Size, and Unique Customers.
-*   **🕒 Activity Heatmaps**: Identify peak transaction hours to optimize business operations.
-*   **💳 Payment Insights**: Sunburst and Pie charts for Payment Mode and Status correlation.
-*   **🔍 Multi-Layer Filtering**: Drill down by Date Range, Transaction Status, and Payment Methods.
-*   **📥 Data Export**: Export filtered data directly to a clean CSV report.
+### 🕒 Activity Analysis & KPIs
+![Peak Hours](https://raw.githubusercontent.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python/refs/heads/main/Screenshot%202026-01-03%20at%2023-47-42%20BDM%20Pro%20Analytics.png)
+
+### 💳 Payment Performance & Merchant Ranking
+![Payment Modes](https://raw.githubusercontent.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python/refs/heads/main/Screenshot%202026-01-03%20at%2023-48-05%20BDM%20Pro%20Analytics.png)
+![Merchant Stats](https://raw.githubusercontent.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python/refs/heads/main/Screenshot%202026-01-03%20at%2023-48-17%20BDM%20Pro%20Analytics.png)
+
+### 📁 Advanced Data Exploration
+![Data Table](https://raw.githubusercontent.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python/refs/heads/main/Screenshot%202026-01-03%20at%2023-48-30%20BDM%20Pro%20Analytics.png)
 
 ---
 
-## 🚀 Setup & Installation Guide
+## ✨ Key Features
+
+*   **⚡ Real-Time CSV Processing**: Automatic data cleaning, quote removal, and formatting for instant analysis.
+*   **💎 Premium UI**: Custom CSS-based Dark Blue theme with animated transitions and glassmorphism cards.
+*   **📈 Dynamic KPIs**: Track Gross Merchandise Value (GMV), Total Orders, Success Rate, and Ticket Sizes.
+*   **🕒 Time-Series Intelligence**: Daily revenue area charts and Peak-Hour activity bars to identify business trends.
+*   **🔍 Granular Filtering**: Interactive sidebar to drill down by Date Range, Status, and Payment Mode.
+*   **🏦 Ecosystem Insights**: Multi-level Sunburst charts showing Payment Mode vs. Success/Failure breakdown.
+*   **📥 Pro Export**: Filtered data export to CSV for external reporting.
+
+---
+
+## 🚀 Setup & Installation
 
 ### Prerequisites
-- Python 3.8 or higher installed on your system.
+- Python 3.8 or higher.
 
-### 🪟 Windows Installation
-1. **Clone the Repo:**
-   ```bash
+### 🪟 Windows Setup
+1. **Clone the repository**:
+   ```powershell
    git clone https://github.com/KarthickKSG/BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python.git
    cd BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python
 
   
 
-    Create Virtual Environment:
-    code Bash
+    Create a virtual environment:
+    code Powershell
 
     
 python -m venv venv
-venv\Scripts\activate
+.\venv\Scripts\activate
 
   
 
-Install Dependencies:
-code Bash
+Install libraries:
+code Powershell
 
     
 pip install -r requirements.txt
 
   
 
-Launch App:
-code Bash
+Run the App:
+code Powershell
 
         
     streamlit run app.py
 
       
 
-🐧 Linux Installation
+🐧 Linux Setup
 
-    Clone the Repo:
+    Clone the repository:
     code Bash
 
     
@@ -74,7 +85,7 @@ cd BDM-PRO-Advanced-Business-Data-Analytics-Dashboard-using-python
 
   
 
-Setup Environment:
+Set up environment:
 code Bash
 
     
@@ -83,7 +94,7 @@ source venv/bin/activate
 
   
 
-Install Dependencies:
+Install dependencies:
 code Bash
 
     
@@ -91,7 +102,7 @@ pip install -r requirements.txt
 
   
 
-Launch App:
+Run the App:
 code Bash
 
         
@@ -99,76 +110,45 @@ code Bash
 
       
 
-📖 Application Manual
-1. Data Upload
+📖 How to Use
 
-    Click on "Browse files" in the left sidebar.
+    Launch: Open the local URL provided by Streamlit (usually http://localhost:8501).
 
-    Upload your transaction CSV (the app is optimized for standard payment gateway formats).
+    Upload: Use the sidebar to upload your transaction CSV file.
 
-2. Analysis & Filtering
+    Filter: Select your specific date range or payment methods in the sidebar.
 
-    Date Filter: Select a specific range to see revenue growth over time.
+    Analyze: Observe the auto-updating charts and KPI metrics.
 
-    Status Filter: Toggle between SUCCESS and FAILURE to analyze drop-off rates.
-
-    Payment Mode: Compare UPI vs Credit Card performance.
-
-3. Interpreting Charts
-
-    Revenue Timeline: Hover over the area chart to see specific daily earnings.
-
-    Peak Hours: Check the bar chart to see which hours (0-23) have the most traffic.
-
-    Sunburst Chart: Click segments to see the success/failure breakdown per payment method.
-
-4. Exporting Reports
-
-    Once you have applied your desired filters, use the "Download Filtered Report" button to save the specific data to your computer.
+    Export: Click the "Download Filtered Report" button to save your refined data.
 
 🛠️ Built With
 
-    Streamlit - The web framework for Data Apps.
+    Streamlit - Web Interface
 
-    Pandas - Data manipulation and analysis.
+    Pandas - Data Engine
 
-    Plotly - Interactive graphing library.
+    Plotly - Interactive Visuals
 
-    Matplotlib - Advanced table styling.
+    Matplotlib - Table Gradients
 
-👤 Developer
+    Animate.css - UI Animations
+
+👤 Author
 
 Karthick KSG
 
     GitHub: @KarthickKSG
 
-Built with ❤️ for Data-Driven Businesses.
+Developed for professional Business Intelligence and Data Analytics.
 code Code
 
     
 ---
 
-### 3. Professional Setup Script (`setup.sh`)
-To make it very easy for Linux users, you can also add this `setup.sh` file:
-
-```bash
-#!/bin/bash
-
-echo "🚀 Starting BDM-PRO Setup..."
-
-# Update and install python venv if not present
-sudo apt-get update
-sudo apt-get install python3-venv -y
-
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-# Install requirements
-pip install --upgrade pip
-pip install -r requirements.txt
-
-echo "✅ Setup Complete!"
-echo "👉 To run the app, type: streamlit run app.py"
+### 3. Quick Setup Tips for GitHub
+1.  **Update Repository Settings**: On your GitHub page, click the **Settings Cog** near "About" and add these tags: `python`, `streamlit`, `data-science`, `business-intelligence`, `dashboard`, `data-visualization`.
+2.  **Main Image**: GitHub will automatically pick the first image in the README as the social preview.
+3.  **License**: Consider adding an `MIT License` file to your repo to make it open-source friendly.
 
   
